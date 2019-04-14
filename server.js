@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const pokemon = require('./modules/pokemon');
 
+app.use(express.static('public'))
 
 
 app.get('/pokemon', function(req,res){
@@ -9,6 +10,7 @@ app.get('/pokemon', function(req,res){
     pokemon: pokemon
   });
 })
+
 app.get('/pokemon/:id', function(req,res){
   res.render('show.ejs',{
     pokemon: pokemon,
