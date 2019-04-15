@@ -1,10 +1,10 @@
 const pokemon = [ {name: "Bulbasaur", img: "http://img.pokemondb.net/artwork/bulbasaur.jpg"},
-				{name: "Ivysaur", img: "http://img.pokemondb.net/artwork/ivysaur.jpg"},
-				{name: "Venusaur", img: "http://img.pokemondb.net/artwork/venusaur.jpg"},
-				{name: "Charmander", img: "http://img.pokemondb.net/artwork/charmander.jpg"},
-				{name: "Charizard", img: "http://img.pokemondb.net/artwork/charizard.jpg"},
-				{name: "Squirtle", img: "http://img.pokemondb.net/artwork/squirtle.jpg"},
-				{name: "Wartortle", img: "http://img.pokemondb.net/artwork/wartortle.jpg"}
+				{name: "Ivysaur", img: "../images/ivysaur.jpg"},
+				{name: "Venusaur", img: "../images/venusaur.jpg"},
+				{name: "Charmander", img: "../images/charmander.jpg"},
+				{name: "Charizard", img: "../images/charizard.jpg"},
+				{name: "Squirtle", img: "../images/squirtle.png"},
+				{name: "Wartortle", img: "../images/wartortle.png"}
 			  ];
 
 module.exports = pokemon;

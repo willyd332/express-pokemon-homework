@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    <ul class="pokemon">
+
   <% for (let i = 0; i < pokemon.length; i++) { %>
-    <li><a href='/pokemon/<%=i%>'><%=pokemon[i].name%></a></li>
+    <div class="pokemon">
+      <div class="link">
+        <a href='/pokemon/<%=i%>'><%=pokemon[i].name%></a>
+      </div>
+    </div>
     <% } %>
-</ul>
+
+
   </body>
 </html>
