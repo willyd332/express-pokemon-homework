@@ -6,13 +6,19 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
   </head>
   <body>
-    <form action="/pokemon" method="post">
-      <input type="text" name="name">
-      <div class="newImage">
-        <h3>TO UPLOAD YOUR OWN IMAGE, COPY AND PASTE A LINK FROM GOOGLE IMAGES!</h3>
-        <input type="text" name="img">
-      </div>
-      <button type="submit">CREATE</button>
-    </form>
+    <div class="newpokebox">
+      <form class="newpoke" action="/pokemon" method="post">
+        <div class="newImage">
+          <h3>POKEMON NAME</h3>
+          <input type="text" name="name">
+        </div>
+
+        <div class="newImage">
+          <h3>TO UPLOAD YOUR OWN IMAGE, COPY AND PASTE A LINK FROM GOOGLE IMAGES!</h3>
+          <input type="text" name="img">
+        </div>
+        <button type="submit">CREATE</button>
+      </form>
+    </div>
   </body>
 </html>
