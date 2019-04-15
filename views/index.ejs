@@ -11,10 +11,17 @@
     <div class="pokemon">
       <div class="link">
         <a href='/pokemon/<%=i%>'><%=pokemon[i].name%></a>
+        <form method="POST" action="/pokemon/:id?_method=DELETE">
+          <button type="submit">RELEASE POKEMON</button>
+        </form>
       </div>
     </div>
     <% } %>
-
+    <div class="pokemon">
+      <div class="create">
+        <a href='/pokemon/new'>CREATE POKEMON</a>
+      </div>
+    </div>
 
   </body>
 </html>
